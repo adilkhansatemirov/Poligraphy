@@ -1,0 +1,132 @@
+@media (max-width: 1199px){
+    /* TITLE */
+    .main-title{
+        padding-top: 2.25rem;
+        height: 17.3rem;
+    }
+    .main-title__head{
+        font-size: 5rem;
+    }
+    .main-title__text{
+        font-size: 2rem;
+    }
+    .menu__item{
+        font-size: 1.4rem;
+    }
+    .block__image{
+        height: 8rem;
+        width: auto;
+    }
+    .block__description{
+        font-size: 1rem;
+    }
+    .block__price{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:991px){
+    /* LOGO */
+    .logo{
+        width: 4rem;
+        height: 4rem;
+    }
+    .logo-text{
+        font-size: 2rem;
+        margin-left: 0.3rem;
+    }
+    /* MENU */
+    .menu__item{
+        margin-top: 1.7rem;
+        margin-left: 1.5rem;
+        font-size: 1.1rem;
+    }
+    /* TITLE */
+    .main-title{
+        padding-top: 2rem;
+        height: 17.3rem;
+    }
+    .main-title__head{
+        font-size: 4rem;
+    }
+    .main-title__text{
+        font-size: 1.8rem;
+    }
+    /* ICONS */
+    .icon__image{
+        width: 81%;
+        margin-left: 0.8rem;
+    }
+    .find-us__item{
+        margin-bottom: 0.5rem;
+    }
+}
+@media(max-width:767px){
+    /* MENU */
+    .menu{
+        justify-content: center;
+    }
+    .menu__item{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        font-size: 1.2rem;
+    }
+    /* LOGO */
+    .logo{
+        float: right;
+        width: 5rem;
+        height: 5rem;
+    }
+    .logo-text{
+        font-size: 2.5rem;
+        margin-left: 0rem;
+    }
+    /* ICONS */
+    .side-icons-container{
+        display: none;
+    }
+    /* TITLE */
+    .main-title{
+        margin-top: 1.5rem;
+    }
+}
+@media(max-width:575px){
+    /* LOGO */
+    .logo{
+        float: none;
+        margin: 0 auto;
+    }
+    .logo-text{
+        text-align: center;
+        padding: 0;
+    }
+    .menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu__item{
+        margin-top: 0;
+        margin-bottom: 0.2rem;  
+        margin-left: 0rem;
+        font-size: 1rem;
+    }
+    .main-title{
+        padding-top: 4rem;
+        margin-top: 0.5rem;
+        height: 14rem;
+    }
+    .main-title__head{
+        font-size: 2.5rem;
+    }
+    .main-title__text{
+        font-size: 1.3rem;
+    }
+    .button{
+        width: 17rem;
+    }
+    .we-sell__title h2{
+        font-size: 2.25rem;
+    }
+    .find-us__item{
+        margin-bottom: 0.75rem;
+    }
+}

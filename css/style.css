@@ -1,0 +1,205 @@
+/* SPECIFICATIONS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+div, p, input, button, a {
+	box-sizing: border-box;
+}
+.orange{
+    background: #ff4f19;
+}
+.violet{
+    background: #501644; 
+}
+.blue{
+    background: #009bca;
+}
+.light-blue{
+    background: #aeefff;
+}
+.grey{
+    background: #c1c1c1;
+}
+.green{
+    background: #00c37a;
+}
+.yellow{
+    background: #ffd420;
+}
+body{
+    font-family: 'Comfortaa', cursive;  
+    background: #000009;
+}
+
+/******** (SECTION 1) *********/
+/*********** HEADER ***********/
+.header{
+    background: url(../img/bg.png);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.logo{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+.logo-text{
+    padding-top: 1.25rem;
+    font-weight: bold;
+    color: #78c8ff;
+}
+/* MENU */
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu__item{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.menu__item a{
+    color:  #78c8ff;
+    font-weight: bold;
+}
+
+/* TITLE */
+.main-title{
+    margin: 9vh auto 0 auto;
+    height: 21rem;
+    padding-top: 3rem;
+    background: #000009;
+    text-align: center;
+}
+.main-title__head{
+    font-size: 5.5rem;
+    color: #78c8ff;
+}
+.main-title__text{
+    font-size: 2.25rem;
+    color: #78c8ff;
+}
+
+/* ICONS */
+.side-icons-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 9vh;
+}
+.icon{
+   padding: 1.5rem;
+   margin-bottom: 1rem;
+}
+.icon__image{
+    width: 100%;
+}
+
+/* BUTTON */
+.button{
+    display: block;
+    background: #ffce05;
+    color: #000009;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    width: 18rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+/*********** (SECTION 2) ************/
+/*********** WHAT WE SELL PAPER ***********/
+.we-sell-section-paper{
+    background: url(../img/bg-8.png);
+    padding-top: 2rem;
+}
+.we-sell__title{
+    border-radius: 1rem 1rem 0 0;
+    text-align: center;
+    background: #02778e;
+    color: #c8fbff;
+    margin-bottom: 1rem;
+}
+.we-sell__title h2{
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    padding-top: 0.75rem;
+}
+.we-sell__title p{
+    width: 95%;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    padding-bottom: 0.75rem;
+}
+
+.block{
+    background: #02778e;
+    color: #c8fbff;
+    display: flex;
+    margin-bottom: 1rem;
+    /* height: 15rem; */
+    padding: 1rem 0 1rem 1rem;
+}
+.block__right-side{
+    padding-left: 1rem;
+}
+.block__description{
+    font-size: 1.2rem;
+    padding-right: 0.5rem;
+}
+.block__image{
+    height: 10rem;
+    width: auto;
+}
+.block__price{
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-right: 1.25rem;
+    font-size: 2rem;
+}
+
+/*********** (SECTION 3) ************/
+/*********** WHAT WE SELL INK ***********/
+.we-sell-section-ink{
+    background: url(../img/bg3.png);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.grey{
+    background: #6f6f6f;
+}
+/*********** (FOOTER) ************/
+/*********** CONTACTS ***********/
+.contacts{
+    background: #000009;
+    color: #78c8ff;
+    padding-bottom: 2rem;
+}
+.find-us{
+    padding-top: 1.25rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-size: 2.25rem;
+}
+.find-us__item{
+    text-align: center;
+    font-size: 1.25rem;
+}
+.find-us__item i{
+    font-size: 1.5rem;
+    margin-right: 0.75rem;
+}
